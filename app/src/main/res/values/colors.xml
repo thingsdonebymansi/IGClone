@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="igclr1">#27AA00FF</color>
+    <color name="circleimgclr">#1A30A9</color>
 </resources>

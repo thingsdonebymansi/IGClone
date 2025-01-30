@@ -1,22 +1,194 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical" >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/pf1"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/sian_cooper_nejcmvlfcws_unsplash"
+                        app:civ_border_color="@color/circleimgclr"
+                        app:civ_border_width="3dp" />
+
+                    <TextView
+                        android:id="@+id/tV1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="TextView" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical" >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/pf2"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/chris_robert_sgycxvo1090_unsplash"
+                        app:civ_border_color="@color/circleimgclr"
+                        app:civ_border_width="3dp" />
+
+                    <TextView
+                        android:id="@+id/tV2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="TextView" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical" >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/pf3"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/pngtreeooda_kiyaomi_sunflower_free_cartoon_3174607"
+                        app:civ_border_color="@color/circleimgclr"
+                        app:civ_border_width="3dp" />
+
+                    <TextView
+                        android:id="@+id/tV3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="TextView" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical" >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/pf4"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/pngtreecosmonaut_adrift_3d_rendered_illustration_5806857"
+                        app:civ_border_color="@color/circleimgclr"
+                        app:civ_border_width="3dp" />
+
+                    <TextView
+                        android:id="@+id/tV4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="TextView" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical" >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/pf5"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/pngtreedesign_of_a_gambling_concept_3929210"
+                        app:civ_border_color="@color/circleimgclr"
+                        app:civ_border_width="3dp" />
+
+                    <TextView
+                        android:id="@+id/tV5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="TextView" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical" >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/pf6"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/pngtreefree_hd_wallpapers_of_sunflower_12995292"
+                        app:civ_border_color="@color/circleimgclr"
+                        app:civ_border_width="3dp" />
+
+                    <TextView
+                        android:id="@+id/tV6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="TextView" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="3dp"
+        android:layout_height="0.5dp" />
+
+
+</LinearLayout>
