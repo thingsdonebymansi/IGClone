@@ -8,9 +8,61 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="65dp"
+        android:layout_height="85dp"
         android:layout_alignParentTop="true"
-        android:background="#27AA00FF" />
+        android:background="#27AA00FF"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/Camera_toolbar"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:backgroundTintMode="add"
+                app:srcCompat="@drawable/camera"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/Title_toolbar"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/audiowide"
+                android:paddingLeft="25dp"
+                android:shadowColor="#00000000"
+                android:text="@string/title_toolbar"
+                android:textColor="@color/black"
+                android:textColorHighlight="#00000000"
+                android:textColorHint="#00000000"
+                android:textColorLink="#00000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/tv_toolbar"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                app:srcCompat="@drawable/tv_retro"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:id="@+id/send_toolbar"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/paper_plane"
+                app:tint="@color/black" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
