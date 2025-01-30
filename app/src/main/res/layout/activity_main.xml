@@ -8,10 +8,9 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:layout_alignParentTop="true"
-        android:background="#27AA00FF"
-        android:minHeight="?attr/actionBarSize" />
+        android:background="#27AA00FF" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
